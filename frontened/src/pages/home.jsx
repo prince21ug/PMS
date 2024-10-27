@@ -86,7 +86,7 @@ const Home = () => {
             >
               <h3 style={{ fontSize: '1.5rem', marginBottom: '10px' }}>Progress Tracking</h3>
               <p style={{ fontSize: '1rem' }}>
-                Keep track of project milestones and deadlines.
+                Keep track of project milestones .
               </p>
             </div>
           </div>
