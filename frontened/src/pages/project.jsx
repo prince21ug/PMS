@@ -8,12 +8,29 @@ const Project = () => {
     <div className="project-page">
       <Navbar />
       
-      <div className=" m-8  gap-6 flex justify-start items-start position-relative ">
+      <div
+        style={{
+          margin: '2rem',
+          gap: '1.5rem',
+          display: 'flex',
+          justifyContent: 'flex-start',
+          alignItems: 'flex-start',
+          position: 'relative'
+        }}
+      >
         <Cards />
         <Cards />
       </div>
       
-      <div className=" m-8 gap-6  flex justify-start items-start  ">
+      <div
+        style={{
+          margin: '2rem',
+          gap: '1.5rem',
+          display: 'flex',
+          justifyContent: 'flex-start',
+          alignItems: 'flex-start'
+        }}
+      >
         <Cards />
         <Cards />
       </div>
